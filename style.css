@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  line-height: 1.6;
+  background: #fafafa;
+}
+
+header {
+  border-bottom: 2px solid #333;
+  margin-bottom: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#publications ul li {
+  margin: 1.2em 0;
+  padding-left: 0.5em;
+  border-left: 3px solid #ddd;
+}
+
+#publications strong {
+  font-size: 1.05em;
+}
+
+#publications em {
+  color: #555;
+}

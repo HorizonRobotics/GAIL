@@ -1,0 +1,14 @@
+body {
+  font-family: Georgia, serif;
+  margin: 2em;
+  background: #f0f8ff;
+}
+
+header {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1em;
+}
+
+a {
+  color: darkred;
+}
