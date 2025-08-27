@@ -12,3 +12,15 @@ header {
 a {
   color: darkred;
 }
+
+
+#bibtex pre {
+  font-family: monospace;
+  font-size: 0.9em;
+  background: #f5f5f5;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  text-align: left;      /* ensure left alignment */
+  max-width: 800px;      /* keeps it neat */
+  margin: auto;          /* centers the block on the page */
+}
