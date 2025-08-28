@@ -40,3 +40,7 @@ a:hover {
 #publications em {
   color: #555;
 }
+
+.site-footer {
+  margin-top: 50px; /* adds space above the footer */
+}
