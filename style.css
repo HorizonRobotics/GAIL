@@ -6,8 +6,11 @@ body {
 }
 
 header {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #c4bebe; /* lighter gray */
   margin-bottom: 1em;
+  text-align: left; /* align header slightly to the left */
+  padding-left: 40%; /* push it towards center but not exactly centered */
+  width: 50%; /* make the line shorter than full width */
 }
 
 nav ul {
@@ -46,6 +49,11 @@ a:hover {
     font-weight: bold;
     margin: 30px 0 15px 0;
     color: #333;
+}
+
+section {
+  margin-top: 5em;   /* space above each section */
+  margin-bottom: 5em; /* space below each section */
 }
 
 .site-footer {
