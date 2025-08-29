@@ -6,11 +6,18 @@ body {
 }
 
 header {
-  border-bottom: 2px solid #c4bebe; /* lighter gray */
-  margin-bottom: 1em;
-  text-align: left; /* align header slightly to the left */
-  padding-left: 40%; /* push it towards center but not exactly centered */
-  width: 50%; /* make the line shorter than full width */
+    border-bottom: 2px solid #c4bebe; /* lighter gray */
+    margin: 0 auto 1em auto; /* center the header element */
+    text-align: center; /* center the text */
+    width: 50%; /* shorter line width */
+    padding: 0 0 0.5em 0; /* add some padding below text */
+}
+
+.footer-text {
+    font-size: 0.9em;  /* makes it smaller */
+    color: grey;       /* makes the text grey */
+    margin-left: 20%; /* align with main content left edge */
+    text-align: left; /* align text to the left */
 }
 
 nav ul {
@@ -72,9 +79,4 @@ main {
     max-width: 800px;  /* constrain width */
     margin: 0 auto;    /* center horizontally */
   }
-}
-
-.footer-text {
-  font-size: 0.9em;  /* makes it smaller */
-  color: grey;       /* makes the text grey */
 }
